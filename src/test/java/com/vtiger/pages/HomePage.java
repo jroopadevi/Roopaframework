@@ -33,4 +33,7 @@ public ExtentTest logger;
 		System.out.println(" this is priya");
 	}
 
+	public void login() {
+		System.out.println( "login");
+	}
 }
