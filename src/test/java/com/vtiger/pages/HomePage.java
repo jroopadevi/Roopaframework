@@ -30,6 +30,7 @@ public ExtentTest logger;
 	{
 		//logout.click();
 		actions.clickElement(logout, "Link Logout clicked");
+		System.out.println(" this is priya");
 	}
 
 }
