@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-22T22:30:12 IST" name="Default suite" finished-at="2023-04-22T22:30:29 IST" duration-ms="16892">
+    <groups>
+    </groups>
+    <test started-at="2023-04-22T22:30:12 IST" name="Default test" finished-at="2023-04-22T22:30:29 IST" duration-ms="16892">
+      <class name="com.vtiger.tests.LoginTest">
+        <test-method is-config="true" signature="initiation()[pri:0, instance:com.vtiger.tests.LoginTest@7db12bb6]" started-at="2023-04-22T22:29:35 IST" name="initiation" finished-at="2023-04-22T22:30:12 IST" duration-ms="36692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method signature="InvalidLoginTC01()[pri:0, instance:com.vtiger.tests.LoginTest@7db12bb6]" started-at="2023-04-22T22:30:12 IST" name="InvalidLoginTC01" finished-at="2023-04-22T22:30:16 IST" duration-ms="3995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTC01 -->
+        <test-method signature="validLoginTC02()[pri:0, instance:com.vtiger.tests.LoginTest@7db12bb6]" started-at="2023-04-22T22:30:16 IST" name="validLoginTC02" finished-at="2023-04-22T22:30:28 IST" duration-ms="12626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTC02 -->
+        <test-method signature="verifyLogoTC03()[pri:0, instance:com.vtiger.tests.LoginTest@7db12bb6]" started-at="2023-04-22T22:30:28 IST" name="verifyLogoTC03" finished-at="2023-04-22T22:30:29 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTC03 -->
+        <test-method is-config="true" signature="tierdown()[pri:0, instance:com.vtiger.tests.LoginTest@7db12bb6]" started-at="2023-04-22T22:30:29 IST" name="tierdown" finished-at="2023-04-22T22:30:29 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierdown -->
+      </class> <!-- com.vtiger.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
