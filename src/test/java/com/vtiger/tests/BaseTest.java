@@ -18,11 +18,11 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	public WebDriver driver;	
-	public ExtentReports extent;
-	public ExtentTest logger;
+	public static WebDriver driver;	
+	public static ExtentReports extent;
+	public static ExtentTest logger;
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	public void initiation()
 	{
 		createExtentReport();
