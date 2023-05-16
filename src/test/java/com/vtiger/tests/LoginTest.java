@@ -42,5 +42,6 @@ public class LoginTest extends BaseTest {
 		lp.verifyLogo();
 		extent.flush();
 	}
+	
 
 }
