@@ -18,4 +18,8 @@ public class AccountPage {
 			PageFactory.initElements(driver, this);
 			actions = new CommonActions(driver,logger);
 		}
+		public void VerifyAcc(int acc)
+		{
+			acc=111;
+		}
 }
